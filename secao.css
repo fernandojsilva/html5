@@ -115,24 +115,28 @@ aside section{
 aside section h1 {
 	margin-bottom: 15px;
 	font-size: 16px;
+	color:#45204c;
 }
 
 aside ul{ /* tirar marcadores */
-
+	list-style-type: none;
 }
 
-aside ul li{
+aside section ul li{
 	margin-left: 20px;
 }
 
 aside ul li a{
-	color:;
-			/* tirar sublinhado */
+	color:#693572;
+	text-decoration: none;		/* tirar sublinhado */
+	font-weight: normal;
 }
 
 aside ul li a:hover{ /* colocar sublinhados*/
-
+	font-weight: bold;
+	text-decoration: underline;
 }
+
 
 
 
